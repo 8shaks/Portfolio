@@ -1,0 +1,56 @@
+/* Home */
+.home {
+  height: 100%;
+}
+
+/* Header */
+.header-home {
+  background-color: #51a3a3;
+  color: azure;
+  height: 10vh;
+  width: 100%;
+  font-family: "Sniglet", cursive;
+  text-align: center;
+  font-size: 3.5em;
+  padding: 5% 0%;
+}
+/* Common */
+.title {
+  font-family: "Sniglet", cursive;
+  text-align: center;
+  font-size: 2.5em;
+  padding: 3.5% 0%;
+}
+
+.text {
+  font-family: "Sniglet", cursive;
+  font-size: 1.5em;
+  padding: 0% 0 2% 0%;
+  overflow-y: auto;
+}
+
+/* About me */
+.about-me {
+  background-color: #4c5b5c;
+  color: azure;
+}
+/* Skills */
+.skills {
+  background-color: #ff715b;
+  color: azure;
+}
+.skills-bullet {
+  text-align: left;
+  list-style: none;
+}
+.list {
+  display: inline-block;
+  margin: 0 8%;
+  padding-inline-start: 0%;
+}
+
+/* Projects */
+.projects {
+  background-color: #e6be93;
+  color: azure;
+}
