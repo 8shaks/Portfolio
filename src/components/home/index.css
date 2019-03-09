@@ -7,11 +7,12 @@
 .header-home {
   background-color: #51a3a3;
   color: azure;
-  height: 10vh;
+  height: auto;
   width: 100%;
   font-family: "Sniglet", cursive;
   text-align: center;
   font-size: 3.5em;
+  word-wrap: break-word;
   padding: 5% 0%;
 }
 /* Common */
@@ -19,7 +20,7 @@
   font-family: "Sniglet", cursive;
   text-align: center;
   font-size: 2.5em;
-  padding: 3.5% 0%;
+  padding: 3% 0%;
 }
 
 .text {
@@ -45,7 +46,7 @@
 }
 .list {
   display: inline-block;
-  margin: 0 8%;
+  margin: 0 5.5%;
   padding-inline-start: 0%;
 }
 
@@ -53,4 +54,38 @@
 .projects {
   background-color: #e6be93;
   color: azure;
+}
+.project-title {
+  font-size: 2em;
+}
+.project-desc {
+  margin: 1% 10%;
+  text-align: center;
+}
+.image {
+  width: 60%;
+  overflow: auto;
+  margin: auto;
+}
+.project-preview {
+  width: 100%;
+}
+/* Smaller Screens */
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-family: "Sniglet", cursive;
+    font-size: 1em;
+    padding: 0% 0 2% 0%;
+    overflow-y: auto;
+  }
+  .list {
+    display: block;
+    margin: 0 5%;
+    padding-inline-start: 0%;
+  }
+  .skills-bullet {
+    text-align: center;
+    list-style: none;
+  }
 }
