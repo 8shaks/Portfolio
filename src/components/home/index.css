@@ -20,7 +20,7 @@
   font-family: "Sniglet", cursive;
   text-align: center;
   font-size: 2.5em;
-  padding: 3% 0%;
+  padding: 2% 0%;
 }
 
 .text {
@@ -29,7 +29,6 @@
   padding: 0% 0 2% 0%;
   overflow-y: auto;
 }
-
 /* About me */
 .about-me {
   background-color: #4c5b5c;
@@ -60,6 +59,7 @@
 }
 .project-desc {
   margin: 1% 10%;
+  font-size: 1.25em;
   text-align: center;
 }
 .image {
@@ -69,6 +69,16 @@
 }
 .project-preview {
   width: 100%;
+  max-height: 500px;
+}
+.indv-project {
+  margin: 2.5% 0 0 0;
+}
+
+/* Contact Me */
+.contact-me {
+  background-color: #4c5b5c;
+  color: azure;
 }
 /* Smaller Screens */
 
@@ -88,4 +98,14 @@
     text-align: center;
     list-style: none;
   }
+  .project-preview {
+    width: 100%;
+    height: 100px;
+  }
 }
+/* @media only screen and (max-width: 1100px) {
+  .project-preview {
+    width: 100%;
+    height: 300px;
+  }
+} */
