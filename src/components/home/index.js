@@ -4,7 +4,6 @@ import { Icon } from "antd";
 import Fade from "react-reveal/Fade";
 import Skills from "./Skills";
 import Projects from "./Projects";
-import { Document } from "react-pdf";
 
 class Home extends Component {
   render() {
@@ -34,11 +33,17 @@ class Home extends Component {
               You can email me about any questions you have at
               shakiran.sathiyanathan@gmail.com
               <br />
-              My resume is available for download below
+              My resume is available{" "}
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/19-NA5QsPDCuj342E7NK3Evd9QKSIWcIO/view?usp=sharing"
+              >
+                here
+              </a>
               <span>
-                <Icon type="arrow-down" />{" "}
+                {" "}
+                <Icon type="arrow-left" />
               </span>
-              <Document file={require("../../images/resume.pdf")} />
             </div>
           </div>
         </Fade>

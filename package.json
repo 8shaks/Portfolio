@@ -6,7 +6,6 @@
     "antd": "^3.15.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-pdf": "^4.0.5",
     "react-reveal": "^1.2.2",
     "react-scripts": "2.1.8"
   },
