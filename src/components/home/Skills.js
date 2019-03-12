@@ -6,7 +6,7 @@ import { Icon } from "antd";
 export default class Skills extends Component {
   render() {
     return (
-      <div className="skills">
+      <div className="skills" id="skills">
         <div className="skills-images">
           <img
             className="skills-image"
