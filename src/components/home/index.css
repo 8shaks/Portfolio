@@ -5,15 +5,19 @@
 
 /* Header */
 .header-home {
-  background-color: #51a3a3;
+  background-image: url("../../images/landing.jpg");
   color: azure;
-  height: auto;
+  height: 100vh;
   width: 100%;
   font-family: "Sniglet", cursive;
   text-align: center;
   font-size: 3.5em;
   word-wrap: break-word;
   padding: 5% 0%;
+}
+.github {
+  color: white;
+  text-decoration: underline;
 }
 /* Common */
 .title {
@@ -26,7 +30,6 @@
 .text {
   font-family: "Sniglet", cursive;
   font-size: 1.5em;
-  padding: 0% 0 2% 0%;
   overflow-y: auto;
 }
 /* About me */
@@ -38,10 +41,34 @@
 .skills {
   background-color: #ff715b;
   color: azure;
+  height: 100vh;
+  padding: 15% 0 0 0px;
+}
+.skills-images {
+  text-align: center;
+  width: 100%;
+}
+.skills-image {
+  max-height: 15vh;
+  padding: 0 5%;
+}
+.skills-para {
+  width: 70%;
+}
+.skills-list {
+  padding-top: 5%;
 }
 .skills-bullet {
   text-align: left;
   list-style: none;
+  font-family: "Share Tech", sans-serif;
+}
+.skills-subheading {
+  text-align: center;
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: 500;
+  font-family: "Share Tech", sans-serif;
 }
 .list {
   display: inline-block;
@@ -82,25 +109,22 @@
 }
 /* Smaller Screens */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* Header */
   .header-home {
-    background-color: #51a3a3;
     color: azure;
-    height: auto;
-    width: 100%;
-    font-family: "Sniglet", cursive;
-    text-align: center;
-    font-size: 2em;
-    word-wrap: break-word;
-    padding: 5% 0%;
+    height: 100vh;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    background-size: 1000px;
+    font-size: 2.5em;
   }
   /* Common */
   .text {
     font-family: "Sniglet", cursive;
-    font-size: 1em;
-    padding: 0% 0 2% 0%;
+    font-size: 0.8em;
     overflow-y: auto;
+    margin: 20% auto;
   }
   .title {
     font-family: "Sniglet", cursive;
@@ -113,6 +137,10 @@
     text-align: center;
     list-style: none;
     font-size: 0.75em;
+  }
+  .skills-image {
+    max-height: 7.5vh;
+    padding: 0 2.5%;
   }
   .list {
     display: inline-block;

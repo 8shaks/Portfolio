@@ -10,7 +10,7 @@ html {
 .center {
   text-align: center;
   align-content: center;
-  margin: auto;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;

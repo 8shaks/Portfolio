@@ -14,8 +14,13 @@ class Home extends Component {
             Shakiran Sathiyanathan
             <div style={{ fontSize: "0.5em" }}>Full Stack Web Developer</div>
             <div style={{ fontSize: "0.5em" }}>
-              <a href="https://github.com/8shaks" target="_blank">
-                Github <Icon type="github" />
+              <a
+                href="https://github.com/8shaks"
+                className="github"
+                target="_blank"
+              >
+                <i>Github </i>
+                <Icon type="github" />
               </a>
             </div>
           </div>
