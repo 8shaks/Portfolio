@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./index.css";
+import "./css/index.css";
+import "./css/skills.css";
 import { Icon } from "antd";
 
 export default class Skills extends Component {

@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar {
+  background: inherit;
+  font-size: 0.25em;
+  text-align: right;
+}
+/* Home */
+.home {
+  height: 100%;
+}
+
+/* Header */
+.header-home {
+  background-image: url("../../../images/landing.jpg");
+  color: azure;
+  height: 100vh;
+  width: 100%;
+  font-family: "Sniglet", cursive;
+}
+.header-title {
+  text-align: center;
+  font-size: 3.5em;
+  word-wrap: break-word;
+  padding: 5% 0%;
+}
+.github {
+  color: white;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 800px) {
+  /* Header */
+  .header-home {
+    color: azure;
+    height: 100vh;
+    background-position-x: 50%;
+    background-position-y: 70px;
+    background-size: 1000px;
+  }
+  .header-title {
+    font-size: 2em;
+  }
+}

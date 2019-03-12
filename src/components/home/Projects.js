@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./index.css";
+import "./css/index.css";
+import "./css/projects.css";
 import { List, Icon } from "antd";
 export default class Projects extends Component {
   render() {
@@ -41,7 +42,7 @@ export default class Projects extends Component {
       }
     ];
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <div className="title">Projects</div>
         <List
           size="large"
@@ -58,10 +59,11 @@ export default class Projects extends Component {
                 >
                   {project.name}
                 </a>
+
                 {project.github ? (
                   <div>
                     <a
-                      className="project-title center"
+                      className="project-github"
                       href={project.githubURL}
                       target="_blank"
                     >
@@ -70,7 +72,7 @@ export default class Projects extends Component {
                   </div>
                 ) : null}
                 <div className="project-desc"> {project.desc}</div>
-                <div className="image">
+                <div className="project-image">
                   <img
                     className="project-preview"
                     src={project.image}

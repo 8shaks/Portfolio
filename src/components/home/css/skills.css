@@ -1,0 +1,59 @@
+/* Skills */
+.skills {
+  background-color: #ff715b;
+  color: azure;
+  height: 100vh;
+  padding: 10% 0 0 0px;
+}
+.skills-images {
+  text-align: center;
+  width: 100%;
+}
+.skills-image {
+  max-height: 15vh;
+  padding: 0 5%;
+}
+.skills-para {
+  width: 70%;
+}
+.skills-list {
+  padding-top: 5%;
+}
+.skills-bullet {
+  text-align: left;
+  list-style: none;
+  font-family: "Share Tech", sans-serif;
+}
+.skills-subheading {
+  text-align: center;
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: 500;
+  font-family: "Share Tech", sans-serif;
+}
+.list {
+  display: inline-block;
+  margin: 0 5.5%;
+  padding-inline-start: 0%;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Skills */
+  .skills {
+    padding: 30% 0 0 0px;
+  }
+  .skills-bullet {
+    text-align: center;
+    list-style: none;
+    font-size: 0.75em;
+  }
+  .skills-image {
+    max-height: 7.5vh;
+    padding: 0 2.5%;
+  }
+  .list {
+    display: inline-block;
+    margin: 0 3.5%;
+    padding-inline-start: 0%;
+  }
+}

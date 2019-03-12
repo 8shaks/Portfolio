@@ -1,0 +1,57 @@
+/* Projects */
+.projects {
+  background-color: #e6be93;
+  color: azure;
+}
+.project-title {
+  font-size: 2em;
+  min-width: 10%;
+}
+.project-github {
+  font-size: 2em;
+  margin: 0 0 0 70%;
+}
+.project-desc {
+  margin: 1% 10%;
+  font-size: 1.25em;
+  text-align: center;
+}
+.project-image {
+}
+.project-preview {
+  float: right;
+  max-width: 30vw;
+  max-height: 30vh;
+}
+.indv-project {
+  margin: 2.5% 0 0 0;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Projects */
+  .project-preview {
+    display: block;
+    min-height: 150px;
+    height: auto;
+    min-width: 100%;
+    float: none;
+  }
+  .project-image {
+    display: block;
+    float: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .project-desc {
+    display: block;
+    margin: 1% 10%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .project-title {
+    display: block;
+    font-size: 1.5em;
+    min-width: 10%;
+  }
+}

@@ -1,29 +1,17 @@
 import React, { Component } from "react";
-import "./index.css";
+import "./css/index.css";
 import { Icon } from "antd";
 import Fade from "react-reveal/Fade";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Header from "./Header";
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
         <Fade left>
-          <div className="header-home">
-            Shakiran Sathiyanathan
-            <div style={{ fontSize: "0.5em" }}>Full Stack Web Developer</div>
-            <div style={{ fontSize: "0.5em" }}>
-              <a
-                href="https://github.com/8shaks"
-                className="github"
-                target="_blank"
-              >
-                <i>Github </i>
-                <Icon type="github" />
-              </a>
-            </div>
-          </div>
+          <Header />
           {/* Body */}
           {/* About Me
           <div className="about-me">
@@ -37,7 +25,7 @@ class Home extends Component {
           {/* Projects */}
           <Projects />
           {/* Resume/ Contact me */}
-          <div className="contact-me">
+          <div className="contact-me" id="contact">
             <div className="title">Contact Me</div>
             <div className="text center">
               You can email me about any questions you have at
