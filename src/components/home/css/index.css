@@ -1,8 +1,7 @@
 /* Common */
 .title {
-  font-family: "Sniglet", cursive;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
   padding: 2% 0%;
 }
 
@@ -11,20 +10,16 @@
   font-size: 1.5em;
   overflow-y: auto;
 }
-/* About me */
-.about-me {
-  background-color: #4c5b5c;
-  color: azure;
-}
 
 /* Contact Me */
 .contact-me {
-  background-color: #4c5b5c;
+  background-color: #969a97;
   color: azure;
+  height: 30vh;
 }
 /* Smaller Screens */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   /* Common */
   .text {
     font-family: "Sniglet", cursive;

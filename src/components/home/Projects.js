@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./css/index.css";
 import "./css/projects.css";
 import { List, Icon } from "antd";
 export default class Projects extends Component {
@@ -47,7 +46,6 @@ export default class Projects extends Component {
         <List
           size="large"
           style={{ textAlign: "center" }}
-          bordered
           dataSource={projects}
           renderItem={project => (
             <div className="indv-project">
@@ -71,6 +69,7 @@ export default class Projects extends Component {
                     </a>
                   </div>
                 ) : null}
+
                 <div className="project-desc"> {project.desc}</div>
                 <div className="project-image">
                   <img

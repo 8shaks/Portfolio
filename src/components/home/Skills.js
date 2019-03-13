@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./css/index.css";
 import "./css/skills.css";
 import { Icon } from "antd";
 
@@ -36,7 +35,7 @@ export default class Skills extends Component {
           the websites I create range from simple informational web pages to
           complex web apps(see some of my projects down below).I'm love working
           new complex projects that require me to leave my comfort zone and
-          learn something new! Here's what I currently have in my skill set
+          learn something new! Here's what I currently have in my skill set:
         </div>
         <div className="center">
           {" "}

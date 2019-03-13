@@ -1,7 +1,7 @@
 /* Skills */
 .skills {
-  background-color: #ff715b;
-  color: azure;
+  background-color: #ffffff;
+  color: #223843;
   height: 100vh;
   padding: 10% 0 0 0px;
 }
@@ -10,14 +10,14 @@
   width: 100%;
 }
 .skills-image {
-  max-height: 15vh;
+  max-height: 12.5vh;
   padding: 0 5%;
 }
 .skills-para {
   width: 70%;
 }
 .skills-list {
-  padding-top: 5%;
+  padding-top: 3%;
 }
 .skills-bullet {
   text-align: left;
@@ -37,7 +37,7 @@
   padding-inline-start: 0%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   /* Skills */
   .skills {
     padding: 30% 0 0 0px;
@@ -55,5 +55,8 @@
     display: inline-block;
     margin: 0 3.5%;
     padding-inline-start: 0%;
+  }
+  .skills-para {
+    padding: 9% 0;
   }
 }

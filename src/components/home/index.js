@@ -10,21 +10,25 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <Fade left>
-          <Header />
-          {/* Body */}
-          {/* About Me
+        <Header />
+        {/* Body */}
+        {/* About Me
           <div className="about-me">
             <div className="title">About Me</div>
             <div className="text center">
               I am a self taught full stack web developer
             </div>
           </div> */}
-          {/* Skills */}
+        {/* Skills */}
+        <Fade left>
           <Skills />
-          {/* Projects */}
+        </Fade>
+        {/* Projects */}
+        <Fade left>
           <Projects />
-          {/* Resume/ Contact me */}
+        </Fade>
+        {/* Resume/ Contact me */}
+        <Fade left>
           <div className="contact-me" id="contact">
             <div className="title">Contact Me</div>
             <div className="text center">

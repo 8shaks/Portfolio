@@ -1,19 +1,28 @@
 /* Projects */
+a {
+}
 .projects {
-  background-color: #e6be93;
+  z-index: 1;
+  background-color: #f28f3b;
   color: azure;
+  width: 100%;
+  font-family: "Inconsolata", monospace;
 }
 .project-title {
-  font-size: 2em;
+  font-size: 2.5em;
   min-width: 10%;
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
 }
 .project-github {
-  font-size: 2em;
-  margin: 0 0 0 70%;
+  font-size: 2.5em;
+  float: right;
 }
 .project-desc {
   margin: 1% 10%;
-  font-size: 1.25em;
+  font-size: 1.5em;
+  color: white;
   text-align: center;
 }
 .project-image {
