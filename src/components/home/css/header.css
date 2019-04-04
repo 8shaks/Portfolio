@@ -28,17 +28,30 @@
   color: white;
   text-decoration: underline;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   /* Header */
   .header-home {
     color: azure;
     height: 100vh;
     background-position-x: 50%;
-    background-position-y: 70px;
-    background-size: 1000px;
+    background-position-y: 200px;
+    background-size: 900px;
   }
   .header-title {
     font-size: 2em;
     padding: 20% 0%;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width:700px){
+  /* Header */
+  .header-home {
+    color: azure;
+    height: 100vh;
+    background-position-x: 50%;
+    background-position-y: 60px;
+    background-size: 1200px;
+  }
+  .header-title {
+    font-size: 3em;
   }
 }

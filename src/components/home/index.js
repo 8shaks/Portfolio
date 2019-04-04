@@ -31,10 +31,11 @@ class Home extends Component {
         <Fade left>
           <div className="contact-me" id="contact">
             <div className="title">Contact Me</div>
-            <div className="text center">
-              You can email me about any questions you have at
-              shakiran.sathiyanathan@gmail.com
-              <br />
+            
+            <div className='contact-me-form center'>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyc4ttwDwwVEIZe5X-xXKtxmbbi4_lpuK-ZBo29xUQhrwp-w/viewform?embedded=true" width="400px" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              </div>
+              <div className="text center">
               My resume is available{" "}
               <a
                 target="_blank"

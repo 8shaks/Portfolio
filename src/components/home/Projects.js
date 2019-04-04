@@ -14,7 +14,7 @@ export default class Projects extends Component {
         githubURL: "https://github.com/8shaks/CryptoNet"
       },
       {
-        name: "Bootstrap Template",
+        name: "Boot-Strap Template",
         desc:
           "A simple template website filled with dummy text. Made with HTML and CSS, using Bootstrap as a UI framework. This website is responsive and mobile friendly.",
         url: "https://8shaks.github.io/BootstrapLayout.github.io/",
@@ -32,7 +32,7 @@ export default class Projects extends Component {
         githubURL: "https://github.com/8shaks/PongGame.github.io"
       },
       {
-        name: "SneakerBloc",
+        name: "Sneaker Bloc",
         desc:
           "A mockup of a online marketplace for sneakers. This web app also uses the MERN stack as well. It uses JWT and passport to authenticate users, It stores posts within MongoDB Atlas.",
         url: "https://sneakerbloc.herokuapp.com/",
