@@ -32,11 +32,11 @@ class Home extends Component {
           <div className="contact-me" id="contact">
             <div className="title">Contact Me</div>
             
-            <div className='contact-me-form center'>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyc4ttwDwwVEIZe5X-xXKtxmbbi4_lpuK-ZBo29xUQhrwp-w/viewform?embedded=true" width="400px" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <div className='center'>
+            {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyc4ttwDwwVEIZe5X-xXKtxmbbi4_lpuK-ZBo29xUQhrwp-w/viewform?embedded=true" width="400px" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> */}
               </div>
               <div className="text center">
-              My resume is available{" "}
+              I am always open to working with new people! Don't be afraid to email me with any questions you may have. You can reach me at shakiran.sathiyanathan@gmail.com. My resume is available{" "}
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/19-NA5QsPDCuj342E7NK3Evd9QKSIWcIO/view?usp=sharing"
