@@ -15,11 +15,10 @@
 .contact-me {
   background-color: #969a97;
   color: azure;
-  height: 30vh;
+  height: 40vh;
+  margin: 0;
 }
-.contact-me-form{
-  height: 792;
-}
+
 /* Smaller Screens */
 
 @media only screen and (max-width: 850px) {
@@ -39,7 +38,9 @@
   .contact-me {
     background-color: #969a97;
     color: azure;
-    height: 120vh;
+    height: 35vh;
+    margin: 0;
+    padding: 5%;
   }
 }
 /* @media only screen and (max-width: 1100px) {
