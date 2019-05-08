@@ -25,9 +25,8 @@ module.exports = function validateInput(data) {
   if (Validator.isEmpty(data.message)) {
     errors.message = "Message is required";
   }
-
   return {
     errors,
-    isValid: errors === {} ? true : false
+    isValid: isEmpty(errors) ? true : false
   };
 };

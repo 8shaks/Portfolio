@@ -12,7 +12,8 @@ class Contact extends Component {
       email: "",
       errorsEmail: "",
       errorsMessage: "",
-      errorsName: ""
+      errorsName: "",
+      contactStatus: false
     };
   }
   validateEmail = email => {
@@ -57,6 +58,7 @@ class Contact extends Component {
         message: this.state.message
       };
       axios.post("/contact-me/email", contactReq).then(res => console.log(res));
+      this.setState({ contactStatus: true });
     }
   };
   onChange = e => {
@@ -66,56 +68,69 @@ class Contact extends Component {
   };
   render() {
     const { errorsEmail, errorsMessage, errorsName } = this.state;
-    return (
-      <div className="contact-me" id="contact-me">
-        <h2 className="contact-me-heading">Contact Me</h2>
-        <div className="contact-me-form">
-          <div className="contact-me-input">
-            <h2 className="contact-me-form-heading">Email</h2>
-            <Input
-              placeholder="Write your Email here!"
-              prefix={<Icon type="mail" />}
-              onChange={this.onChange}
-              id="email"
-            />
-            {errorsEmail !== "" ? (
-              <span className="error">{errorsEmail}</span>
-            ) : null}
-          </div>
-          <div className="contact-me-input">
-            <h2 className="contact-me-form-heading">Name</h2>
-            <Input
-              placeholder="What's your name?"
-              onChange={this.onChange}
-              id="name"
-            />
-            {errorsName !== "" ? (
-              <span className="error">{errorsName}</span>
-            ) : null}
-          </div>
-          <div className="contact-me-input">
-            <h2 className="contact-me-form-heading">Message</h2>
-            <Input.TextArea
-              placeholder="What services are you looking for? Please try to include as much detail as possible!"
-              rows={4}
-              prefix={<Icon type="mail" />}
-              onChange={this.onChange}
-              id="message"
-            />
-            {errorsMessage !== "" ? (
-              <span className="error">{errorsMessage}</span>
-            ) : null}
-          </div>
-          <Button
-            color="primary"
-            className="contact-me-submit"
-            onClick={this.handleSubmit}
-          >
-            Submit
-          </Button>
+    let content;
+    if (this.state.contactStatus === false) {
+      content = (
+        <div className="contact-me" id="contact-me">
+          {" "}
+          <h2 className="contact-me-heading">Contact Me</h2>
+          <div className="contact-me-form">
+            <div className="contact-me-input">
+              <h2 className="contact-me-form-heading">Email</h2>
+              <Input
+                placeholder="Write your Email here!"
+                prefix={<Icon type="mail" />}
+                onChange={this.onChange}
+                id="email"
+              />
+              {errorsEmail !== "" ? (
+                <span className="error">{errorsEmail}</span>
+              ) : null}
+            </div>
+            <div className="contact-me-input">
+              <h2 className="contact-me-form-heading">Name</h2>
+              <Input
+                placeholder="What's your name?"
+                onChange={this.onChange}
+                id="name"
+              />
+              {errorsName !== "" ? (
+                <span className="error">{errorsName}</span>
+              ) : null}
+            </div>
+            <div className="contact-me-input">
+              <h2 className="contact-me-form-heading">Message</h2>
+              <Input.TextArea
+                placeholder="What services are you looking for? Please try to include as much detail as possible!"
+                rows={4}
+                prefix={<Icon type="mail" />}
+                onChange={this.onChange}
+                id="message"
+              />
+              {errorsMessage !== "" ? (
+                <span className="error">{errorsMessage}</span>
+              ) : null}
+            </div>
+            <Button
+              color="primary"
+              className="contact-me-submit"
+              onClick={this.handleSubmit}
+            >
+              Submit
+            </Button>
+          </div>{" "}
         </div>
-      </div>
-    );
+      );
+    } else {
+      content = (
+        <div className="contact-me" id="contact-me">
+          <h2 className="contact-me-heading">
+            Thanks For contacting me! I'll get back to you soon!
+          </h2>
+        </div>
+      );
+    }
+    return content;
   }
 }
 
