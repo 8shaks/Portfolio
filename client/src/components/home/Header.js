@@ -35,7 +35,7 @@ export default class Header extends Component {
                 </a>
               </Menu.Item>
               <Menu.Item key="contact/resume">
-                <a href="#contact">
+                <a href="#contact-me">
                   <Icon type="mail" theme="twoTone" />
                   Contact/Resume
                 </a>

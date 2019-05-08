@@ -11,14 +11,6 @@
   overflow-y: auto;
 }
 
-/* Contact Me */
-.contact-me {
-  background-color: #969a97;
-  color: azure;
-  height: 40vh;
-  margin: 0;
-}
-
 /* Smaller Screens */
 
 @media only screen and (max-width: 850px) {

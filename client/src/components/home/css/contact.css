@@ -1,0 +1,57 @@
+/* CONTACT ME */
+.contact-me {
+  background-color: #969a97;
+  color: azure;
+  height: 100vh;
+  margin: 0;
+}
+.contact-me-heading {
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+  padding: 5% 0 0 0;
+}
+
+/* Form */
+.contact-me-form {
+  color: white;
+  width: 60%;
+  margin: auto;
+}
+.contact-me-form-heading {
+  color: white;
+  font-size: 1.5em;
+}
+.contact-me-input {
+  margin: 2.5% 0;
+}
+.contact-me-submit {
+  margin: 1.5% 0 0 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 850px) {
+  .contact-me-heading {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 15% 0 0 0;
+  }
+  /* Form */
+  .contact-me-form {
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 8% 0 0 0;
+  }
+  .contact-me-form-heading {
+    color: white;
+    font-size: 1.5em;
+  }
+  .contact-me-input {
+    margin: 8.5% 0;
+  }
+  .contact-me-submit {
+    margin: 1.5% 0 0 0;
+  }
+}
