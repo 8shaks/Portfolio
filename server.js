@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-const keys = require("./config/keys_dev");
+const keys = require("./config/keys");
 const validateInput = require("./validation");
 const path = require("path");
 
