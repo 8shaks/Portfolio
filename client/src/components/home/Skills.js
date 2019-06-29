@@ -30,12 +30,12 @@ export default class Skills extends Component {
         </div>
         <div className="title">Skills</div>
         <div className=" skills-para text center">
-          As a self taught full stack web developer, I'm always looking to
-          expand my skill set. I currently devlop websites. The complexity of
-          the websites I create range from simple informational web pages to
-          complex web apps(see some of my projects down below).I'm love working
-          new complex projects that require me to leave my comfort zone and
-          learn something new! Here's what I currently have in my skill set:
+          I have a wide skill-set that incluides many new and popular
+          technologies. My skillset helps me to cater toward my client's vison
+          and what their goal is. I love learning new technologies that I can
+          implement into my work. I prefer to learn by experiance and by trying
+          something out myself I gain a better understanding of how to skill
+          works.
         </div>
         <div className="center">
           {" "}
