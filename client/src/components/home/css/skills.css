@@ -3,7 +3,7 @@
   background-color: #ffffff;
   color: #223843;
   height: 100vh;
-  padding: 10% 0 0 0px;
+  padding: 5% 0 0 0px;
 }
 .skills-images {
   text-align: center;
@@ -15,9 +15,12 @@
 }
 .skills-para {
   width: 70%;
+  height: auto;
+  font-size: 1.25em;
 }
 .skills-list {
   padding-top: 3%;
+  font-size: 1.25em;
 }
 .skills-bullet {
   text-align: left;
@@ -36,11 +39,13 @@
   margin: 0 5.5%;
   padding-inline-start: 0%;
 }
-
-@media only screen and (max-width: 850px) {
+.skills-arrow {
+  font-size: 0.75em;
+}
+@media only screen and (max-width: 775px) {
   /* Skills */
   .skills {
-    padding: 30% 0 0 0px;
+    padding: 20% 0 0 0px;
   }
   .skills-bullet {
     text-align: center;
@@ -49,7 +54,8 @@
   }
   .skills-image {
     max-height: 7.5vh;
-    padding: 0 2.5%;
+    margin: 10% 0;
+    padding: 0% 2.5%;
   }
   .list {
     display: inline-block;
@@ -58,5 +64,7 @@
   }
   .skills-para {
     padding: 9% 0;
+    font-size: 0.9em;
+    width: 90%;
   }
 }

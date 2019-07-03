@@ -30,14 +30,14 @@ export default class Skills extends Component {
         </div>
         <div className="title">Skills</div>
         <div className=" skills-para text center">
-          I have a wide skill-set that incluides many new and popular
-          technologies. My skillset helps me to cater toward my client's vison
+          I have a wide skill-set that includes many new and popular
+          technologies. My skill set helps me to cater toward my client's vision
           and what their goal is. I love learning new technologies that I can
-          implement into my work. I prefer to learn by experiance and by trying
+          implement into my work. I prefer to learn by experience and by trying
           something out myself I gain a better understanding of how to skill
           works.
         </div>
-        <div className="center">
+        <div className="skills-arrow center">
           {" "}
           <Icon type="arrow-down" style={{ fontSize: "5.5em" }} />
         </div>
